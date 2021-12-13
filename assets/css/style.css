@@ -1,0 +1,253 @@
+:root {
+    --primary-color: skyblue;
+    --secondary-color: red;
+    --tertiary-color: black;
+    --fourth-color: azure;
+    --fifth-color: rgb(1,176,207);
+}
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Applied to the body */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--fifth-color);
+    margin: 0;
+}
+/* Applied to the header */
+header {
+    padding: 0px 0px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bolder;
+    color: var(--fourth-color);
+    margin: 0;
+    background-color: var(--primary-color);  
+    background-color: var(--fourth-color);
+}
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 60px;
+  
+}
+
+header nav {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0px 9px;
+    font-weight: lighter;
+    font-size: 2.00vw;
+    text-decoration: underline;
+}
+
+/* Applied to the section */
+section {
+    padding: 27px;
+    text-align: center;
+}
+
+/* Applied to the background image, title, and avatar. */
+.info {
+    background-image: url("../images/pexels-photo-844297.jpeg");
+    height: 230px;
+    background-size: cover;
+    position: relative;
+
+}
+
+.info h2 {
+    text-align: right;
+    position: absolute; 
+    top: 100px;
+    right: 50px;
+    font-size: 30px;
+    color: var(--secondary-color);
+    text-decoration: underline blue;
+    background-color: var(--tertiary-color);
+}
+
+/* Applied to the title of the sections about me, work, and contact me. */
+.left{
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+/* Applied to the vertical line and title of the section */
+.vl {
+    padding: 10px;
+    width: 40px;
+    border-right: 8px solid rgb(36, 15, 15);
+    margin: 10px 25px 5px 30px;
+}
+
+#work
+.vl {
+    height: 900px;
+}
+
+#about-me
+.vl { 
+    height: 350px;
+}
+
+#contact-me
+.vl {
+    height: 50px;
+
+}
+
+#contact-me {
+    left: 100px;
+}
+#about-me p {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    text-align: right;
+}
+
+/* Applied to the contents and overall of the work section */ 
+.work {
+    flex: wrap;
+    display: flex;
+}
+.project {
+    margin: 0;
+    padding: 0px;
+    left: 150px;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 1250px;
+    right: -10px;
+    flex:wrap;
+}
+
+
+.first {
+    border: 10px solid skyblue;
+    padding: 0px;
+    width: 66%;
+    height: 55%;
+    position: absolute;
+    top: 850px;
+    right: 200px;
+    display: inline-block;
+}
+
+h4 span,
+p span {
+    background-color: var(--primary-color);
+}
+
+.first img,
+.project2 img,
+.project1 img {
+    width: 100%;
+    height: 100%;
+    text-shadow: black;
+
+}
+
+
+.project div {
+   width: 400px;
+   height: 100px;
+   text-align: left;
+   margin: 5px 5px;
+   color: var(--tertiary-color);
+   float: right;
+   border: var(--primary-color) solid 5px;
+   flex: wrap;
+}
+
+
+.first h4,
+.project1 h4,
+.project2 h4 {
+font-size: 20px;
+margin-top: -55px;
+text-align: left;
+color: var(--tertiary-color);
+}
+
+.first {
+    background: skyblue;
+    color: var(--tertiary-color);
+    border-radius: 20px;
+    text-shadow: none;
+    text-align: left;
+}
+
+/* This will be applied to the footer */
+footer {
+    white-space: nowrap;
+    flex-wrap: wrap;
+    display: block;  
+    
+
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 115%; 
+    
+ 
+   
+}
+footer ul li {
+    display: inline-block;
+    text-decoration: underline;  
+   
+}
+
+footer h6 {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    
+}
+    
+
+
+footer a {
+    left: 200px;
+    font-size: 15px;
+    text-decoration: underline;
+    display: inline-block;  
+    text-align: center;
+    margin: 0 auto;
+
+    
+}
+
+h6 span {
+    word-spacing: 10px;
+}
