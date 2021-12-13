@@ -251,3 +251,104 @@ footer a {
 h6 span {
     word-spacing: 10px;
 }
+/* Ending of what is being applied to the footer */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+header { 
+    padding-bottom: 0;
+    justify-content: right;
+    position: relative;
+}
+
+header h1 {
+    width: 100%;
+    text-align: left;
+}
+
+header h2 {
+    width: 100%;
+    text-align: right;
+}
+
+header nav ul {
+    justify-content: right;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+header nav ul li a {
+    font-size: 15px;
+}
+
+.info img {
+    width: 10%;
+}
+#about-me {
+    width: 70%;
+}
+#about-me p {
+    width: 70%;
+}
+
+.first {
+    width: 55%;
+}
+footer h6 {
+    width: 70%;
+    text-align: center;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+footer {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+footer h6 {
+    width: 20%;
+    float: right;
+}
+footer h6 span {
+    word-spacing: 10px;
+}
+
+#contact-me {
+    width: 50%;
+}
+.project {
+    width: 90%;
+    float: center;
+}
+
+footer h6 span {
+    word-spacing: 5px;
+}
+.first {
+    width: 40%;
+    float: center;
+}
+
+}
+
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+.first {
+    width: 28%;
+    float: center;
+}
+.project {
+    width:79%;
+    float: right;
+}
+
+#contact-me {
+    width: 30%;
+}
+
+}
+}
